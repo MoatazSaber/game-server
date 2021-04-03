@@ -1,28 +1,23 @@
 # RealTime Game Server
 
-### Prerequisites
+# Instructions
 
-To run the project locally, you should have these installed on your machine
+To run the project locally, you should first have both _repositories_ cloned to your machine.
 
-- docker
-- docker-compose
+### [Client Side Repository](https://github.com/MoatazSaber/game-client)
+
+### [Server Side Repository](https://github.com/MoatazSaber/game-server)
+
+# The server should be started first **then** the client
+
+# Install all needed dependencies by running
+
+```
+npm i
+```
 
 ### How to run
 
-To get the services up and running, in the terminal, navigate to the `docker-compose.yml` file of the project and then execute the following command:
-
-```sh
-docker-compose up -d
 ```
-
-### Testing
-
-```sh
-npm run test
-```
-
-### Fix Linter Errors
-
-```sh
-npm run lint
+npm run start
 ```
